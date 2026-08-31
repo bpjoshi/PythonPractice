@@ -8,7 +8,7 @@ class AddableWord(Word):
     def __init__(self, text):
         super().__init__(text)
     def __add__(self, other):
-        return Word(self._text+":"+other._text)
+        return AddableWord(self._text+":"+other._text)
 
 
 w1=AddableWord("Good")

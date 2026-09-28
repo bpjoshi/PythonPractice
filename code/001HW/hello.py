@@ -8,5 +8,6 @@ if(condition):
 else:
     print("false")
 #comment
+question='How are you?'
 pompt=input("enter your name> ")
-print("Hello "+pompt)
+print("Hello "+pompt + ', '+question)

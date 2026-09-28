@@ -1,5 +1,9 @@
-raining=False
-temp=25
+print("Do you wnat to know - what should you do?")
+raining = input("Is it raining? (True/False) > ").strip().lower() == "true"
+#.strip().lower() == "true" is done to convert string to boolean
+temp = float(input("What is the temperature in Celsius? > "))
+#float to change temperature from String value
+#raining=False
 
 if temp>27 and not raining:
     print("dry hot weather")
@@ -9,4 +13,6 @@ else:
     print("cold weather")
 
 action="go walk" if not raining else "stay indoor"
-print("what should i do?: "+action)
+actionString="you should "
+
+print(actionString+action)

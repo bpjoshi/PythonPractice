@@ -1,13 +1,11 @@
 value=1
-while value < 10:
-    print("1st-print", value)
+while value < 5:
     if value == 2:
+        print("Not prinring 2")
         value+=1
-        print("====lb==")
         continue
     else:
-        print("I am not 2")
-    print("====lb==")
+        print("current value: ", value)
     value+=1
 else:
     print("The while loop is now finished") 

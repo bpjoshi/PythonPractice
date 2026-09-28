@@ -1,4 +1,4 @@
-val=11
+val=12
 match val:
     case 10|11: print("Ok")
     case 15|16: print("dokay")
